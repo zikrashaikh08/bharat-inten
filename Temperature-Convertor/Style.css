@@ -1,0 +1,85 @@
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            body {
+                width: 100vw;
+                height: 85vh;
+                background-image: url(image/bg.jpg);
+                /* place-items: center; */
+                background-size: cover;
+                background-repeat: no-repeat;
+                opacity: 0.5;
+            }
+            
+            form {
+                background-color: darkseagreen;
+                padding: 5vh;
+                margin: 35vh;
+                height: auto;
+                width: 50%;
+                border: 3px solid rgb(175, 221, 90);
+                box-shadow: 1em;
+                -webkit-box-shadow: 0 10px 6px -6px #8adb54;
+                -moz-box-shadow: 0 10px 6px -6px #93e452;
+                box-shadow: 0 10px 6px -6px #8fe96c;
+                position: relative;
+            }
+            
+            #tempCalc label {
+                text-shadow: 10px;
+                text-align: center;
+                text-indent: 2px;
+                color: rgb(26, 114, 22);
+                font-size: 30px;
+                text-transform: uppercase;
+                font-weight: 600;
+                text-shadow: 2px 2px 2px rgb(221, 230, 221);
+            }
+            
+            #temp {
+                border: none;
+                padding: 10px;
+                height: 40px;
+                width: 30%;
+                font-size: 20px;
+                margin-top: 20px;
+                border-radius: 5px;
+            }
+            
+            #temp_diff {
+                height: 40px;
+                width: 30%;
+                border: none;
+                margin-top: 20px;
+                font-size: 20px;
+                vertical-align: top;
+                text-align: center;
+                border-radius: 5px;
+                background-color: rgb(245, 240, 240);
+                align-items: center;
+            }
+            
+            [type="submit"] {
+                background-color: #234705;
+                color: #FFFFFF;
+                border: solid;
+                border-radius: 0.25rem;
+                padding: 0.25rem 1rem;
+                box-sizing: border-box;
+                border-radius: 0.1875rem;
+                cursor: pointer;
+                line-height: 1;
+                border-width: 0.0625rem;
+                height: 32px;
+                font-size: 0.875rem;
+                font-weight: 600;
+                margin-top: 10px;
+            }
+            
+            #resultContainer {
+                font-size: 35px;
+            }
